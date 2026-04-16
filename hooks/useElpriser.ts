@@ -1,3 +1,5 @@
+import { hookPropertyMap } from "next/dist/server/require-hook";
+import { HooksClientContext } from "next/dist/server/route-modules/pages/vendored/contexts/entrypoints";
 import { useState, useEffect } from "react";
 
 // Types
@@ -49,7 +51,7 @@ export function useElpriser({ year, month, day, area }: UseElpriserParams) {
       }
     };
 
-    fetchData(); // <-- Call the async function
+    fetchData();
   }, [year, month, day, area]);
 
   return { data, loading, error };
