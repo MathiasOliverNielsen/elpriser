@@ -1,0 +1,21 @@
+{
+  "name": "Elpriser",
+  "short_name": "EL-Pris",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#20b61b",
+  "icons": [
+    {
+      "src": "icons/elpriser.transparent.192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/elpriser.transparent512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
